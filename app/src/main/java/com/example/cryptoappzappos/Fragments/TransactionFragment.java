@@ -214,7 +214,6 @@ public class TransactionFragment extends Fragment implements OnChartValueSelecte
                 dataSet.setDrawCircles(false);
                 dataSet.setLineWidth(2f);
                 dataSet.setMode(LineDataSet.Mode.CUBIC_BEZIER);
-                //      dataSet.setColor(getResources().getColor(R.color.colorPrimary));
                 dataSet.setDrawFilled(true);
 
                 if (Utils.getSDKInt() >= 18) {
@@ -264,7 +263,7 @@ public class TransactionFragment extends Fragment implements OnChartValueSelecte
             @Override
             public void onResponse(Call<PriceCheck> call, Response<PriceCheck> response) {
                 if (!response.isSuccessful()) {
-                    //textView.setText("Code: "+response.code());
+
                     return;
                 }
 
@@ -276,7 +275,7 @@ public class TransactionFragment extends Fragment implements OnChartValueSelecte
 
             @Override
             public void onFailure(Call<PriceCheck> call, Throwable t) {
-                System.out.println(t.getMessage());
+
             }
         });
     }
