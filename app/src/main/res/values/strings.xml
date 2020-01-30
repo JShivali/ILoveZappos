@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">CryptoExchange</string>
+    <string name="tab_text_1">Transactions</string>
+    <string name="tab_text_2">Order Book</string>
+    <string name="tab_text_3">Price Alert</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="alert_title">CryptoExchange</string>
+
+    <string name="alert_message"> The price of bitcoin has fallen</string>
+    <string name="title_activity_my_crypto_app">MyCryptoApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="data_url">"https://www.bitstamp.net/api/v2/"</string>
+
+    <string name="bitcoin_rate">Bitcoin rate</string>
+
+
+    <!-- Toast messages -->
+    <string name="valid_threshold">Enter valid amount to set threshold</string>
+    <string name="threshold_set_success">Great! Threshold set successfully.</string>
+
+
+    <!-- Notification messages -->
+    <string name="unique_work_name">PriceCheck</string>
+    <string name="notify_channel_id">PRICE ALERT</string>
+    <string name="notify_channel_name">price alert channel</string>
+    <string name="notify_channel_desc">This is priceAlertChannel</string>
+    <string name="notification_title">BitCoin price alert</string>
+    <string name="notification_content">The price of bitcoin is falling. You might want to trade.</string>
+    <string name="threshold_instruction">Set a threshold price in the text box and we will notify you when the price drops below it.</string>
+
+
+    <!-- Price alert -->
+    <string name="enter_threshold">Enter threshold price</string>
+    <string name="set_limit">Set notifications"</string>
+    <string name="remove_limit">Remove notifications"</string>
+    <string name="stop_alerts">Price notification removed</string>
+    <string name="no_alerts">No alerts currently enabled</string>
+
+
+</resources>

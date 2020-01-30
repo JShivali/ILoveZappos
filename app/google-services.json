@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "616679991365",
+    "firebase_url": "https://cryptoappzappos.firebaseio.com",
+    "project_id": "cryptoappzappos",
+    "storage_bucket": "cryptoappzappos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616679991365:android:dd0c7597f423ca1e3bdb2c",
+        "android_client_info": {
+          "package_name": "com.example.cryptoappzappos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616679991365-16rl4dqdtejcseihiqqcu26c302p9gl3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cryptoappzappos",
+            "certificate_hash": "7ebbae5e274cf887f331355f67c60cd95a5d467d"
+          }
+        },
+        {
+          "client_id": "616679991365-up2v6bfiklvbji6pqh5ncveqfivbv5p7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJNqGlqXshjHxfLke25ATDb1VTtkEKPTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616679991365-up2v6bfiklvbji6pqh5ncveqfivbv5p7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
